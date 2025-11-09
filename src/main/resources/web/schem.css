@@ -1,0 +1,63 @@
+#upload-schematic .row {
+	margin: 0;
+}
+
+#upload-schematic .span6.upload {
+	float: left;
+	overflow: hidden;
+}
+
+#upload-schematic .span6.upload .form-horizontal .control-group .control-label {
+	width: 35%
+}
+#upload-schematic .span6.upload .form-horizontal .control-group .controls {
+	margin-left: 40%
+}
+#upload-schematic .span6.upload .form-horizontal .control-group .controls input[type="text"],
+#upload-schematic .span6.upload .form-horizontal .control-group .controls input[type="file"] {
+	width: fit-content;
+	width: -moz-available;
+	width: -webkit-fill-available;
+}
+
+#upload-schematic .span6.preview {
+	float: right;
+}
+
+#upload-schematic .span6 {
+	width: calc(50% - 10px);
+	margin: 0;
+}
+
+#upload-schematic .span6.upload form#upload-form {
+	margin-bottom: 10px;
+}
+
+#upload-schematic .span6.upload .form-horizontal .control-group {
+	margin-bottom: 8px;
+}
+
+#upload-schematic .span6.upload .accordion .accordion-group {
+	margin-bottom: 5px;
+}
+
+#upload-schematic .span6.preview #preview-panel {
+	min-height: 275px;
+	height: 45vh;
+	height: calc(100vh - 345px);
+	background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+
+#upload-schematic .span6.preview #preview-panel p#preview-text {
+	padding: 25px 5px 0;
+	text-align: center;
+	color: #999;
+	text-shadow: 0 1px 0 #fff;
+}
